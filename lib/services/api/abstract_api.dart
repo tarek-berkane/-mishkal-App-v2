@@ -1,3 +1,5 @@
+import 'package:http/http.dart';
+
 abstract class AbstractApi {
-  Future post_request(String data, String type);
+  Future<Response> post_request(String data, String type);
 }
